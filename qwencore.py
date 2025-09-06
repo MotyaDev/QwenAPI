@@ -95,6 +95,7 @@ class Qwen(AsyncGeneratorProvider, ProviderModelMixin):
 
     # Complete list of models, extracted from the API
     models = [
+        "qwen3-max-preview"
         "qwen3-235b-a22b",
         "qwen3-coder-plus",
         "qwen3-30b-a3b",
