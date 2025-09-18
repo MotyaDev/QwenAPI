@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from qwencore import Qwen, JsonConversation
 
 async def main():
-    messages = [{"role": "user", "content": "Дай мне список всех моделей qwen кодовые имена"}]
+    messages = [{"role": "user", "content": "Give me a list of all qwen model codenames"}]
     
     try:
         response_generator = Qwen.create_async_generator(
